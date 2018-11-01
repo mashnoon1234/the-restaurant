@@ -1,0 +1,50 @@
+.nav-item {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.navbar{
+    background-color:#FADBD8;
+}
+.input-group{
+    width : 300px;
+}
+#afterNavbarHome{
+    background: url("picture1.jpg");
+    background-size: auto;
+    color: white;
+    font-size: 40px;
+}
+#afterNavbarMenu{
+    background: url("picture1.jpg");
+    background-size: 100%;
+    min-height: 700px;
+    padding: 30px;
+    border:2px; 
+    border-style:solid; 
+    border-color:black;
+}
+.jumbotron{
+    background: none;
+}
+.card{
+    background-color: #FADBD8;
+}
+.card-group{
+    border:2px; 
+    border-style:solid; 
+    border-color:black;
+    opacity: 0.9;
+}
+.footer-copyright{
+    background:#FADBD8;
+}
+.strokeme
+{
+    color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;  
+    padding: 20px;
+}
