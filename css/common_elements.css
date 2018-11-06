@@ -9,7 +9,7 @@
     width : 300px;
 }
 #afterNavbarMenu{
-    background: url("picture1.jpg");
+    background: url("../images/picture1.jpg");
     background-size: 100%;
     min-height: 610px;
     padding: 80px;
