@@ -18,11 +18,11 @@ function showCart(button)
         var totalPrice = parseInt(0, 10);
         for(i = 0; i < itemCount; i++)
         {
-            display = display + '<hr><li style="text-align:center;">' + itemNames[i] + ' - TK ' + itemPrices[i] + '</li>';
+            display = display + '<hr><li>' + itemNames[i] + ' - TK ' + itemPrices[i] + '</li>';
             totalPrice = totalPrice + parseInt(itemPrices[i], 10);
         }
         display = display + "</ol>";
-        display = display + '<ul><hr><li style="text-align:center;"><b><em>Total Amount - TK ' + totalPrice + '</em></b></li><hr></ul>';
+        display = display + '<ul><hr><li><b><em>Total Amount - TK ' + totalPrice + '</em></b></li><hr><li><button type="button" class="btn btn-danger">Checkout</button></li><hr></ul>';
         document.getElementById("myDropdown").innerHTML = display;
     }
     else 
